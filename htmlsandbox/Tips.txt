@@ -1,10 +1,18 @@
+-> pixels are 1/96th of an inch
+-> default text size is 16px
+
 EXTENSIONS USED IN vscode:
 : LIVE SERVER 
+
+GOOGLE'S DEVELOPER TOOLS:
+: To open dev tools -> Fn + F12
 
 LINKS:
 : source.unsplash.com -> for having some kind of random image.
 : W3 Schools -> very informative site
+: For fonts go to -> fonts.google.com
 
+HELPFUL SHORTCUTS:
 Website's source code -> Ctrl + U
 To find something on website -> Ctrl + F
 To write comment in vscode -> Ctrl + ?
@@ -21,3 +29,4 @@ If we highlight something like radio & want to choose the next text of radio -> 
 If a paragraph of text of grp of lines are not as per tab -> Select them, Shift + Tab
 To auto-fill if -> Eg. h1#about = <h1 id="about"></h1>
 To auto-fill div either use above method or -> #about = <div id="about"></div>
+
