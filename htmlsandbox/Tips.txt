@@ -1,0 +1,7 @@
+EXTENSIONS USED IN vscode:
+: LIVE SERVER 
+
+1. Website's source code -> Ctrl + U
+2. To find something on website -> Ctrl + F
+3. To write comment in vscode -> Ctrl + ?
+4. lorem10 to write 10 words
