@@ -1,6 +1,9 @@
 EXTENSIONS USED IN vscode:
 : LIVE SERVER 
 
+LINKS:
+: source.unsplash.com -> for having some kind of random image.
+
 1. Website's source code -> Ctrl + U
 2. To find something on website -> Ctrl + F
 3. To write comment in vscode -> Ctrl + ?
