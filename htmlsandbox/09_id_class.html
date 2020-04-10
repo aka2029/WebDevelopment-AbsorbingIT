@@ -7,12 +7,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
   <script src="main.js"></script>
+
+  <style>
+    .card{
+      border: 1px solid #ccc;
+      background: #f4f4f4;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
+
+    .enhance{
+      color: yellow;
+      background-color: black;
+    }
+  </style>
+  
 </head>
 <body>
 
   <!-- id's are unique but class can be repeated -->
   
-    <div id="main-header">
+    <div id="main-header" class="card">
       <h1>My Website</h1>
       <p>A site about me</p>
     </div>
@@ -21,12 +36,12 @@
       <li><a href="#">About</a></li>
       <li><a href="#">Contact</a></li>
     </ul>
-    <div id="about">
+    <div id="about" class="card">
       <h3>About</h3>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta nostrum molestias, sed dolor modi assumenda officia dolores repudiandae cumque autem architecto aliquid cum quibusdam quia nihil nulla totam enim ipsam!</p>
+      <p>Lorem ipsum dolor, sit amet <div class="enhance">consectetur adipisicing elit.</div> Soluta nostrum molestias, sed dolor modi assumenda officia dolores <span class="enhance">repudiandae cumque autem architecto</span> aliquid cum quibusdam quia nihil nulla totam enim ipsam!</p>
     </div>
 
-    <div id="contact">
+    <div id="contact" class="card">
       <h3>Contact Me</h3>
       <ul>
         <li>Address: 50</li>
