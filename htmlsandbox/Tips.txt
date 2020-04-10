@@ -10,7 +10,7 @@ LINKS:
 4. lorem10 to write 10 words
 5. To directly more to next line -> Ctrl + Enter
 6. To stay at same line but shift eveything to next -> Ctrl + Shift + Enter
-7. To copy the line to next as well -> Shift + Alt + down arrow
+7. To copy the line to next -> Shift + Alt + down arrow
 8. To move cursor accross the words -> Ctrl + arrow
 9. To go to start or end -> Home or End key
 10.To take the current line up or down -> Alt + arrow
