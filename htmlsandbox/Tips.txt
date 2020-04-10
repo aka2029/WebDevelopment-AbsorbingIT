@@ -3,19 +3,21 @@ EXTENSIONS USED IN vscode:
 
 LINKS:
 : source.unsplash.com -> for having some kind of random image.
+: W3 Schools -> very informative site
 
-1. Website's source code -> Ctrl + U
-2. To find something on website -> Ctrl + F
-3. To write comment in vscode -> Ctrl + ?
-4. lorem10 to write 10 words
-5. To directly more to next line -> Ctrl + Enter
-6. To stay at same line but shift eveything to next -> Ctrl + Shift + Enter
-7. To copy the line to next -> Shift + Alt + down arrow
-8. To move cursor accross the words -> Ctrl + arrow
-9. To go to start or end -> Home or End key
-10.To take the current line up or down -> Alt + arrow
-11.To enter N <li> tags at a time -> li*N, Press Tab
-12.If we highlight something like radio & want to choose the next text of radio -> Ctrl + D 
+Website's source code -> Ctrl + U
+To find something on website -> Ctrl + F
+To write comment in vscode -> Ctrl + ?
+lorem10 to write 10 words
+To directly more to next line -> Ctrl + Enter
+To stay at same line but shift eveything to next -> Ctrl + Shift + Enter
+To copy the line to next -> Shift + Alt + down arrow
+To move cursor accross the words -> Ctrl + arrow
+To go to start or end -> Home or End key
+To take the current line up or down -> Alt + arrow
+To enter N <li> tags at a time -> li*N, Press Tab
+If we highlight something like radio & want to choose the next text of radio -> Ctrl + D 
   and proceed like to select more
-13.If a paragraph of text of grp of lines are not as per tab -> Select them, Shift + Tab
-14.
+If a paragraph of text of grp of lines are not as per tab -> Select them, Shift + Tab
+To auto-fill if -> Eg. h1#about = <h1 id="about"></h1>
+To auto-fill div either use above method or -> #about = <div id="about"></div>
