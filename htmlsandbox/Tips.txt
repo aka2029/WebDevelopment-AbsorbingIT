@@ -15,4 +15,7 @@ LINKS:
 9. To go to start or end -> Home or End key
 10.To take the current line up or down -> Alt + arrow
 11.To enter N <li> tags at a time -> li*N, Press Tab
-12.
+12.If we highlight something like radio & want to choose the next text of radio -> Ctrl + D 
+  and proceed like to select more
+13.If a paragraph of text of grp of lines are not as per tab -> Select them, Shift + Tab
+14.

@@ -1,25 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Forms & Input</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-  <script src="main.js"></script>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Forms & Input</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+<script src="main.js"></script>
 </head>
 <body>
-  <form action="process.php"> <!-- This is where the form is submitted to -->
-    <div> 
-      <label for="name">Name</label>  <br>
-      <input type="text" id="name" name="name">   <!-- id and for should be same otherwise the input box will not highlight, & name attribute is for the use at server side -->
-    </div>
-    <div>
-      <label for="email">Email</label>  <br>
-      <input type="email" name="email" id="email">
-    </div>
-    <label for="message">Message</label>  <br>
-    <textarea name="message" id="message" cols="50" rows="5"></textarea> 
-  </form>
+<form action="process.php"> <!-- This is where the form is submitted to -->
+  <!-- Text -->
+<div> 
+  <label for="name">Name</label>  <br>
+  <input type="text" id="name" name="name" value="John Doe">   <!-- id and for should be same otherwise the input box will not highlight, & name attribute is for the use at server side -->
+</div>
+<!-- Email -->
+<div>
+  <label for="email">Email</label>  <br>
+  <input type="email" name="email" id="email" placeholder="Enter an email">
+</div>
+<!-- Text Area -->
+<div>
+<label for="message">Message</label>  <br>
+<textarea name="message" id="message" cols="50" rows="5"></textarea> 
+</div>
+<!-- Select -->
+<div>
+<label for="sex">Sex</label>
+<select name="sex" id="sex">
+  <option value="male">Male</option>
+  <option value="female" selected>Female</option>
+  <option value="other">Others</option>
+</select>
+</div>
+<!-- Number -->
+<div>
+<label for="age">Age</label> <br>
+<input type="number" name="age" id="age">
+</div>
+<!-- Date -->
+<div>
+<label for="birthdate">Birthdate</label>  <br>
+<input type="date" name="birthdate" id="birthdate">
+</div>
+<!-- Radio -->
+<div><label for="membership">Membership</label> <br>
+<input type="radio" name="membership" value="simple" id="memership">Simple    <!-- name has to be same for all 3 so as to link them & computer cant read the text hence the value attribute so, as for the system to identify -->
+<input type="radio" name="membership" value="standard" id="membership" checked> Standard
+<input type="radio" name="membership" value="super" id="membership"> Super
+</div>
+
+<!-- The radio buttons can be selected one at a time & to select more we need "checked box" which is very similar to radio buttons -->
+
+<!-- Checkbox -->
+<div><label for="membership">I Like...</label> <br>
+<input type="checkbox" name="likes" value="bike" id="likes"> Bike
+<input type="checkbox" name="likes" value="car" id="likes" checked> Car
+<input type="checkbox" name="likes" value="boat" id="likes"> Boat
+</div>
+<!-- Input submit -->
+<input type="submit" value="Submit">
+<!-- Button submit -->
+<button type="submit">Submit</button>
+
+<button type="reset">Reset</button>
+</form>
 </body>
 </html>
