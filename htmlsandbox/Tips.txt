@@ -1,6 +1,8 @@
 -> pixels are 1/96th of an inch
 -> default text size is 16px
 -> use png files for images with no background
+-> the properties that are further down will overlap the properties that are up in style.
+->
 
 EXTENSIONS USED IN vscode:
 : LIVE SERVER 

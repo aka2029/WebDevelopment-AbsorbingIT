@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Box Model / Margin & Padding</title>
+  <style>
+    /* CSS Reset or use popular reset files like Eric Myer has a reset file */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box; /* This keeps the width fixed even on increaing the padding, see bookmark for reference */
+    }
+    
+    .box {
+      background: #f4f4f4;
+      border: 2px #777 solid;
+      width: 500px;
+
+      /* margin on all sides */
+      margin: 20px;
+
+      /* margin per side */
+      margin-top: 10px;
+      margin-right: 20px;
+      margin-bottom: 10px;
+      margin-left: 20px;
+
+      /* margin shorthand = top, right, bottom, left */
+      margin: 10px 20px 10px 20px;
+
+      /* margin shorthand = top/bottom right/left */
+      margin: 10px 20px;
+
+      /* Margin on all sides */
+      margin: 20px;
+
+      /* Padding per side */
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+
+      /* Padding shorthand = top, right, bottom, left */
+      padding: 10px 20px 10px 20px;
+
+      /* Padding shorthand = top/bottom right/left */
+      padding: 10px 20px;
+    }
+
+    .box h3 {
+      padding-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h3>Box One</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto quo fugiat molestias repellendus nobis perspiciatis, doloremque cumque illum iste! Quos.</p>
+  </div>
+  <div class="box">
+    <h3>Box Two</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto quo fugiat molestias repellendus nobis perspiciatis, doloremque cumque illum iste! Quos.</p>
+  </div>
+</body>
+</html>
