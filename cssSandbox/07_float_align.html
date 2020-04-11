@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Float & Align</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.4em;
+    }
+    
+    .container {
+      max-width: 960px;
+      margin: 30px auto;
+    }
+
+    .box {
+      background: #f4f4f4;
+      border: 1px solid #333;
+      margin-bottom: 15px;
+    }
+
+    .box p {
+      /* This is for text align property */
+      text-align: right;
+      text-align: center;
+      text-align: justify;
+    }
+  </style>
+</head>
+
+<!-- The stuff should be in the middle, so we need to have container element, we need to add width to it and set margin to auto that will add equal space from both sides
+  & so keep in mind to first set width of the container and then setting the margin to auto.
+  But when we open this site on small screens then the content just hides and we have to scroll, hence we should always use "max-width" instead of width.
+ -->
+
+<body>
+  <div class="container">
+  <div id="box-1" class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio soluta ratione commodi harum consectetur blanditiis assumenda maxime tempore omnis laborum.</p>
+  </div>
+  <div id="box-2" class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio soluta ratione commodi harum consectetur blanditiis assumenda maxime tempore omnis laborum.</p>
+  </div>
+  <div id="box-3" class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio soluta ratione commodi harum consectetur blanditiis assumenda maxime tempore omnis laborum.</p>
+  </div>
+</div>
+</body>
+</html>

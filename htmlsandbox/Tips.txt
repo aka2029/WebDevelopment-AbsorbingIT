@@ -34,4 +34,5 @@ If we highlight something like radio & want to choose the next text of radio -> 
 If a paragraph of text of grp of lines are not as per tab -> Select them, Shift + Tab
 To auto-fill if -> Eg. h1#about = <h1 id="about"></h1>
 To auto-fill div either use above method or -> #about = <div id="about"></div>
+To auto-fill box and id -> #box-1.box = <div id="box-1" class="box"></div>
 
