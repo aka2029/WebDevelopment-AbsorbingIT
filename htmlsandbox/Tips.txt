@@ -1,5 +1,6 @@
 -> pixels are 1/96th of an inch
 -> default text size is 16px
+-> use png files for images with no background
 
 EXTENSIONS USED IN vscode:
 : LIVE SERVER 
@@ -11,6 +12,8 @@ LINKS:
 : source.unsplash.com -> for having some kind of random image.
 : W3 Schools -> very informative site
 : For fonts go to -> fonts.google.com
+: For hex colors -> color-hex.com
+: For color pallet -> htmlcolorcodes.com
 
 HELPFUL SHORTCUTS:
 Website's source code -> Ctrl + U

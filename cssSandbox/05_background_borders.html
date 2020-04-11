@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Backgrounds & Borders</title>
+  <style>
+    #box-1 {
+      background-color: blanchedalmond;
+      border-width: 3px;
+      border-color: red;
+      border-style: solid;
+      /* border: 3px solid red; */
+      border-radius: 10px;
+    }
+
+    #box-2 {
+      background: #333;
+      color: #fff;
+      border-top: blue solid 3px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    #box-3 {
+      background-image: url('./img/stars.jpg');
+      background-repeat: no-repeat;
+      background-position: center center; /* or 100px 100px, -100px 100px, top top */
+      background-size: cover;
+      /* or the best way is this ->
+       background: url('./img/stars.jpg') no-repeat center center/cover */
+      color: #fff;
+      height: 300px;
+      width: 600px;
+    }
+
+    #box-4 {
+      background: url('./img/leaf.jpg') no-repeat center bottom;
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+<body>
+  <div id="box-1">
+    <h3>Box One</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, non? Vel nobis iste voluptatum optio dolores consectetur laborum ut omnis.</p>
+  </div> <br>
+  <div id="box-2">
+    <h3>Box Two</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, non? Vel nobis iste voluptatum optio dolores consectetur laborum ut omnis.</p>
+  </div>
+  <div id="box-3">
+    <h3>Box Three</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, non? Vel nobis iste voluptatum optio dolores consectetur laborum ut omnis.</p>
+  </div>
+  <div id="box-4">
+    <h3>Box Four</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, rem tenetur, nobis impedit, repellendus pariatur reprehenderit eius iure at itaque laudantium illo repudiandae aperiam. Laboriosam veritatis optio repellendus quod perferendis at in natus voluptatem fugiat eum rem voluptates a quam corporis sed, dolores temporibus voluptatum blanditiis eveniet cumque voluptas beatae. Sunt porro dolore iure corporis! Ratione dicta aspernatur consequuntur repellat mollitia autem aperiam voluptas accusantium sunt cupiditate ipsam aliquam veritatis officiis corrupti placeat magni dignissimos, fugiat dolor consectetur nihil! Adipisci, aliquam eaque. Nemo nostrum tempora culpa vero blanditiis, consequuntur voluptatem, ducimus soluta ab quam laboriosam perspiciatis, provident nesciunt quasi. Molestiae eveniet quisquam alias est sunt facilis ipsam accusamus perferendis exercitationem dolorem ex autem, distinctio cum quis unde deserunt inventore reiciendis a laboriosam atque rem maxime. Optio quo itaque dolor corrupti eveniet commodi, doloremque impedit nisi tenetur omnis ab tempora placeat quam, corporis fugit voluptatum facilis vitae culpa pariatur molestias repellat minima. Similique rem ab temporibus dolorum eligendi assumenda beatae repudiandae amet incidunt laborum obcaecati laboriosam pariatur asperiores et harum maiores dignissimos, exercitationem doloremque molestiae quisquam totam quos porro officiis. Impedit quisquam fuga non nihil iste! Dolore corrupti ex ullam, soluta quaerat officiis assumenda iure repudiandae repellendus! Illo debitis nihil doloribus?</p>
+  </div>
+</body>
+</html>
