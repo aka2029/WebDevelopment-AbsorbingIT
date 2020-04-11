@@ -6,6 +6,7 @@
 
 EXTENSIONS USED IN vscode:
 : LIVE SERVER 
+: IntelliSense for CSS class names
 
 GOOGLE'S DEVELOPER TOOLS:
 : To open dev tools -> Fn + F12
