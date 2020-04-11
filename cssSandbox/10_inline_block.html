@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Inline & Block Styling</title>
+  <style>
+    body {
+      background: black;
+    }
+    
+    li {
+      display: inline;
+    }
+
+    li a {
+      padding: 10px;
+    }
+
+    img {
+      display: block;
+      margin: auto; /*  Thsi only works when the element is block not inline */
+    }
+
+    .box {
+      width: 32%;   /* This property is being ignored because you cannot use width property, margin and some more on inline.... so the solution is to use inline-block
+      but  still all 3 will not come in same line i.e the 3rd gets knocked onto the next line because we didn't add the box-sizing property
+       */
+      display: inline-block;
+      box-sizing: border-box;
+
+      background: #f4f4f4;
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="#">Technology</a></li>
+    <li><a href="#">Business</a></li>
+    <li><a href="#">Fashion</a></li>
+  </ul>
+
+  <br><br>
+
+  <img src="./img/leaf.jpg" alt="My image">
+
+  <br><br>
+
+  <div class="box">
+    <h3>Heading</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, possimus. Illum delectus nisi animi nostrum non dolore ducimus distinctio officiis?</p>
+  </div>
+  <div class="box">
+    <h3>Heading</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, possimus. Illum delectus nisi animi nostrum non dolore ducimus distinctio officiis?</p>
+  </div>
+  <div class="box">
+    <h3>Heading</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, possimus. Illum delectus nisi animi nostrum non dolore ducimus distinctio officiis?</p>
+  </div>
+</body>
+</html>
