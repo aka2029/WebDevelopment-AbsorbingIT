@@ -6,6 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Float & Align</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+    
     body{
       font-family: Arial, Helvetica, sans-serif;
       line-height: 1.4em;
@@ -14,6 +18,10 @@
     .container {
       max-width: 960px;
       margin: 30px auto;
+    }
+
+    .clr{
+      clear: both;
     }
 
     .box {
@@ -28,6 +36,17 @@
       text-align: center;
       text-align: justify;
     }
+
+    #box-2 {
+      float: left;
+      /* we always gonna add width when using float */
+      width: 68%;
+    }
+
+    #box-3 {
+      float: right;
+      width: 30%;
+    }
   </style>
 </head>
 
@@ -35,6 +54,8 @@
   & so keep in mind to first set width of the container and then setting the margin to auto.
   But when we open this site on small screens then the content just hides and we have to scroll, hence we should always use "max-width" instead of width.
  -->
+
+ <!-- There are many problems with float, first we have to set box sizing to border-box, and if new thing comes in then it fits behind it not push it down, so one thing we can do is to add a utility class "clr" and set it to both because we want to clear the left and right floats & put it right under where the float is -->
 
 <body>
   <div class="container">
@@ -47,6 +68,13 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio soluta ratione commodi harum consectetur blanditiis assumenda maxime tempore omnis laborum.</p>
   </div>
   <div id="box-3" class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio soluta ratione commodi harum consectetur blanditiis assumenda maxime tempore omnis laborum.</p>
+  </div>
+
+  <div class="clr"></div>
+  
+  <div id="box-4" class="box">
     <h3>Heading</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio soluta ratione commodi harum consectetur blanditiis assumenda maxime tempore omnis laborum.</p>
   </div>
