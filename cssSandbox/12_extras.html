@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Test File</title>
+  <style>
+    h1 {
+      /* display: none;             -> This removes it completely */
+      /* visibility: hidden;        -> This also removes it but still takes space */
+      color: blue   !important; /* This is a flag, and increases its preference */
+    }
+
+    .hello {          /* class is preferred over others */
+      color: red;
+      margin-top: -30px;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="hello">Hello World</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quo quaerat sit fugiat repellat unde esse sapiente recusandae iusto blanditiis, in perspiciatis deleniti, eum excepturi suscipit iure cum? Aspernatur, consequuntur nemo. Cum voluptas necessitatibus consequatur excepturi dignissimos adipisci debitis, tempora nisi iusto nihil unde labore at architecto similique, quos ipsum.</p>
+</body>
+</html>
