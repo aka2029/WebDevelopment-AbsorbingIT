@@ -1,9 +1,15 @@
+-> Photoshop is also important
+-> for ideas and inspiration look for themes online
 -> pixels are 1/96th of an inch
 -> default text size is 16px
 -> use png files for images with no background
 -> the properties that are further down will overlap the properties that are up in style.
 -> we can't do margin: auto on inline elements, it has to be block element
 -> positioning is not used much now, because responsiveness and looking good on mobile devices is very important and when things done in this way is not very mobile friendly
+-> understand overflow property in css more indepth
+-> use chrome dev tools to find pixels no. on various smartphones and tablets
+and check how it looks on other devices
+-> Em is a multiplyer of font size of its parent element, and Rem unit is relative to the font size of root html element
 
 EXTENSIONS USED IN vscode:
 : LIVE SERVER 
@@ -18,6 +24,8 @@ LINKS:
 : For fonts go to -> fonts.google.com
 : For hex colors -> color-hex.com
 : For color pallet -> htmlcolorcodes.com
+: For really high quality stock images -> pexels.com
+: Third party service, just include style sheets and add classes to elements and get cool looking icons -> fontawesome.com 
 
 HELPFUL SHORTCUTS:
 Website's source code -> Ctrl + U
