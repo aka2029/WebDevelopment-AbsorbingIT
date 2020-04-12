@@ -1,3 +1,4 @@
+-> the first layout that we create is known as boiler plate
 -> Photoshop is also important
 -> for ideas and inspiration look for themes online
 -> pixels are 1/96th of an inch
