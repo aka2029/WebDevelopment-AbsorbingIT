@@ -1,7 +1,7 @@
 -> Photoshop is also important
 -> for ideas and inspiration look for themes online
 -> pixels are 1/96th of an inch
--> default text size is 16px
+-> default text size is 16px & by default links are inline so, use inline-block
 -> use png files for images with no background
 -> the properties that are further down will overlap the properties that are up in style.
 -> we can't do margin: auto on inline elements, it has to be block element
@@ -10,6 +10,8 @@
 -> use chrome dev tools to find pixels no. on various smartphones and tablets
 and check how it looks on other devices
 -> Em is a multiplyer of font size of its parent element, and Rem unit is relative to the font size of root html element
+-> vh, vw is veiwport height and veiwport width.... veiwport is the browser area... 50 vh is going ot take up 50 of 100 veiwport heights
+-> all browsers of any height has 100 veiwport slices
 
 EXTENSIONS USED IN vscode:
 : LIVE SERVER 

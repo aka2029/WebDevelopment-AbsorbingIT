@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vh & Vw</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header {
+      background: #333 url('https://source.unsplash.com/weekly') no-repeat center center/cover
+      ;
+      color: #fff;
+      height: 100vh;
+      width: 100vw;  /* isnt much required, vh will work fine for us */
+      text-align: center;
+      padding: 2rem;
+      padding-top: 10rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+    }
+
+    header p {
+      margin: 1rem 0;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      background: #f4f4f4;
+      color: #333;
+      padding: 0.75rem 2rem;
+    }
+
+    section {
+      padding: 2rem;
+    }
+
+    @media(max-height: 450px) {
+      header {
+        padding-top: 5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- -> vh, vw is veiwport height and veiwport width.... veiwport is the browser area... 50 vh is going ot take up 50 of 100 veiwport heights
+-> all browsers of any height has 100 veiwport slices -->
+  
+    <header>
+      <h1>Welcome To Our Website</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quisquam impedit veritatis soluta esse fugit cumque corporis consequatur repellat molestias.</p>
+      <a href="#" class="btn">Find Out More</a>
+    </header>
+
+    <section>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis necessitatibus labore, quisquam recusandae, numquam debitis dolorum nam neque fugit cupiditate, iusto eligendi. Quam explicabo neque assumenda voluptatem ipsa. Ipsa accusamus repellat odit quisquam blanditiis eos veniam nostrum vitae omnis dicta voluptatem aliquam quaerat ex, voluptatum fugiat delectus est iure tempora.</p>
+    </section>
+</body>
+</html>
