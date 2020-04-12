@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Em & Rem Units</title>
+  <style>
+    /* For checking the below mentioned final computer nos. refer the console and lot of people dont't use em but go for Rem because em are bit confusing like the padding provided in p tag of box-1 
+    
+    so, dont use Em */
+
+    /* #box-1 {
+      font-size: 20px;
+    }
+
+    #box-1 p {
+      font-size: 1.5em;
+      padding: 1em;   --> The final value should be 20(1em * 20px) but its 30 bec it takes the value of 1.5em due to nearest neighbour
+    }
+
+    #box-1 ul {
+      font-size: 1.2em;
+    } */
+
+    html {
+      font-size: 10px;  /* Now this is the root, otherwise the standart root is 16px */
+      /* font-size: 62.5%; --> This is same as above but is more responsive */
+    }
+
+    #box-2 h3 {
+      font-size: 2rem;
+    }
+
+    #box-2 p {
+      font-size: 1.6rem;
+      line-height: 1.7rem;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- <div id="box-1">
+    <h3>Box One</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab aspernatur nostrum qui aut quo culpa laudantium cum deserunt veniam atque vitae expedita, quos, ratione eum sint dolorum repellat suscipit est!</p>
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+        </ul>
+      </li>
+      <li>4</li>
+    </ul>
+  </div> -->
+  <div id="box-2">
+    <h3>Box Two</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur odit libero nobis fuga! Alias illo, eius corporis ratione blanditiis commodi inventore quam hic incidunt facere sequi tempora numquam cum tempore?</p>
+  </div>
+</body>
+</html>
