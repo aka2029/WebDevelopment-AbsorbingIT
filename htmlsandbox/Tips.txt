@@ -7,12 +7,14 @@
 -> the properties that are further down will overlap the properties that are up in style.
 -> we can't do margin: auto on inline elements, it has to be block element
 -> positioning is not used much now, because responsiveness and looking good on mobile devices is very important and when things done in this way is not very mobile friendly
--> understand overflow property in css more indepth
+-> understand overflow property in css more indepth. source: "https://developer.mozilla.org/en-US/docs/Web/CSS/overflow"
 -> use chrome dev tools to find pixels no. on various smartphones and tablets
 and check how it looks on other devices
 -> Em is a multiplyer of font size of its parent element, and Rem unit is relative to the font size of root html element
 -> vh, vw is veiwport height and veiwport width.... veiwport is the browser area... 50 vh is going ot take up 50 of 100 veiwport heights
 -> all browsers of any height has 100 veiwport slices
+-> Earlier jQuery was required for many things but now mostly everything can be easily done by JS. However, animation is something that is difficult to do in some situations. so things like sliders and scrolling effect- jQuery makes stuff really easy.
+-> LINUX reles the hosting world, the servers runs on it.(The best for me is static hosting(Netlify, github pages, etc), shared hosting and cloud hosting)
 
 EXTENSIONS USED IN vscode:
 : LIVE SERVER 
@@ -29,6 +31,9 @@ LINKS:
 : For color pallet -> htmlcolorcodes.com
 : For really high quality stock images -> pexels.com
 : Third party service, just include style sheets and add classes to elements and get cool looking icons -> fontawesome.com 
+: For JS maps api key -> Google console(search, it will lead to google cloud platform)
+: To get google map script file -> google map docs 
+: To get latitude and longitude for any location -> latlong.net 
 
 HELPFUL SHORTCUTS:
 Website's source code -> Ctrl + U
