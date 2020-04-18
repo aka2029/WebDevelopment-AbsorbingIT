@@ -16,7 +16,7 @@ and check how it looks on other devices
 -> Earlier jQuery was required for many things but now mostly everything can be easily done by JS. However, animation is something that is difficult to do in some situations. so things like sliders and scrolling effect- jQuery makes stuff really easy.
 -> LINUX reles the hosting world, the servers runs on it.(The best for me is static hosting(Netlify, github pages, etc), shared hosting and cloud hosting)
 -> While using ::befor or ::after, the content attribute has to be used
--> h1.a,  This is looking different because till now to represent a specific tag we have just used classes or id's but for the first time we have used a tag and a class
+-> h1.a,  (here a is anchor tag)This is looking different because till now to represent a specific tag we have just used classes or id's but for the first time we have used a tag and a class
 -> to create a variable "--name"
 -> any variable you create in the root scope can be used anywhere in the style sheet
 
