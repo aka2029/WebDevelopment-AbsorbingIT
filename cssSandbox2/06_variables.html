@@ -8,7 +8,15 @@
   <title>CSS Variables</title>
   <style>
     :root {
+      --max-width: 1100px;
+      --primary-color: steelblue;
+      --secondary-color: skyblue;
       --light-color: #f4f4f4;
+    }
+
+    .box {    /* They can be put here because they hve to be used only in this scope */
+      --box-1-widht: 1;
+      --box-2-widht: 2;
     }
     
     * {
@@ -22,6 +30,35 @@
       font-family: Arial, Helvetica, sans-serif;
       line-height: 1.4;
       background: var(--light-color);
+    }
+
+    header {
+      background-color: var(--primary-color);
+      color: #fff;
+      border-bottom: 5px var(--secondary-color) solid;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      margin: auto;
+      max-width: var(--max-width);
+    }
+
+    .box {
+      background-color: var(--primary-color);
+      border-bottom: 5px var(--secondary-color) solid;
+      color: #fff;
+      padding: 1rem;
+      margin: 1rem;
+    }
+
+    .box-1 {
+      flex: var(--box-1-widht);
+    }
+
+    .box-2 {
+      flex: var(--box-2-widht);
     }
   </style>
 </head>
