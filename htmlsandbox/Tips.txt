@@ -38,6 +38,7 @@ LINKS:
 : For JS maps api key -> Google console(search, it will lead to google cloud platform)
 : To get google map script file -> google map docs 
 : To get latitude and longitude for any location -> latlong.net 
+: MDN docs and "freeCodeCamp.org" are awesome references
 
 HELPFUL SHORTCUTS:
 Website's source code -> Ctrl + U
