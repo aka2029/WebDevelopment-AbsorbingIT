@@ -21,6 +21,8 @@ and check how it looks on other devices
 -> any variable you create in the root scope can be used anywhere in the style sheet
 -> if we put the style sheet link before the menu link in the index.html, then.. we can use the variables of the style.css in the menu.css 
 
+-> learn about all CSS Selectors LINK: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors"
+
 EXTENSIONS USED IN vscode:
 : LIVE SERVER 
 : IntelliSense for CSS class names
