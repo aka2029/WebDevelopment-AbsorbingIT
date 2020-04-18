@@ -19,6 +19,7 @@ and check how it looks on other devices
 -> h1.a,  (here a is anchor tag)This is looking different because till now to represent a specific tag we have just used classes or id's but for the first time we have used a tag and a class
 -> to create a variable "--name"
 -> any variable you create in the root scope can be used anywhere in the style sheet
+-> if we put the style sheet link before the menu link in the index.html, then.. we can use the variables of the style.css in the menu.css 
 
 EXTENSIONS USED IN vscode:
 : LIVE SERVER 
