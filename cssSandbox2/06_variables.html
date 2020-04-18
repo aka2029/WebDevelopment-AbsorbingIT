@@ -1,0 +1,44 @@
+<!-- in documentation you might see them as custom properties but they are just variables, they are just placeholders for a value -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Variables</title>
+  <style>
+    :root {
+      --light-color: #f4f4f4;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+      /* You need to define the scope for your variable. To format the variable put "--nameOfTheVariable" */
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.4;
+      background: var(--light-color);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CSS Variables</h1>
+  </header>
+
+  <div class="container">
+    <div class="box box-1">
+      <h3>Heading</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quam nisi soluta magnam totam iusto aut amet nam eveniet ut?</p>
+    </div>
+    <div class="box box-2">
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quam nisi soluta magnam totam iusto aut amet nam eveniet ut?</p>
+    </div>
+  </div>
+</body>
+</html>
