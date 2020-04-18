@@ -39,6 +39,11 @@ LINKS:
 : To get google map script file -> google map docs 
 : To get latitude and longitude for any location -> latlong.net 
 : MDN docs and "freeCodeCamp.org" are awesome references
+: Implementing the jQuery scroll, to add that flare to it -> code.jquery.com for grabbing the script tag given below
+
+"<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>"
+
+and this has to be added just before closing the body tag, And then in the js file add the code for smooth scrolling.
 
 HELPFUL SHORTCUTS:
 Website's source code -> Ctrl + U
