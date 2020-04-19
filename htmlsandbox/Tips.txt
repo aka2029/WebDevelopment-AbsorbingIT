@@ -22,13 +22,22 @@ and check how it looks on other devices
 -> if we put the style sheet link before the menu link in the index.html, then.. we can use the variables of the style.css in the menu.css 
 
 -> learn about all CSS Selectors LINK: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors"
+-> Look closely - "font: normal 1rem/1.5 'Arial', sans-serif"
+
+-> we should always add JavaScript files at the end of the index page.
+
+
 
 EXTENSIONS USED IN vscode:
 : LIVE SERVER 
 : IntelliSense for CSS class names
 
+
+
 GOOGLE'S DEVELOPER TOOLS:
 : To open dev tools -> Fn + F12
+
+
 
 LINKS:
 : source.unsplash.com -> for having some kind of random image.
@@ -47,6 +56,8 @@ LINKS:
 "<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>"
 
 and this has to be added just before closing the body tag, And then in the js file add the code for smooth scrolling.
+
+
 
 HELPFUL SHORTCUTS:
 Website's source code -> Ctrl + U
