@@ -6,4 +6,9 @@ $ Don't Forget The Bookmarks Within The Course
 4) Project: Pearson_Specter_Litt_Website
 5) cssSandbox2
 6) Project: Presentation_Website
-7) Project: 
+7) Project: Hamburger_Menu_Overlay
+8) Project: Knowledge_Timeline
+9) Project: Quick_Dropdown_Menu
+10)cssGridSandbox
+11)Project: NewsGrid_Website
+12)

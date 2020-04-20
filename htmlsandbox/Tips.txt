@@ -46,7 +46,7 @@ LINKS:
 : For hex colors -> color-hex.com
 : For color pallet -> htmlcolorcodes.com
 : For really high quality stock images -> pexels.com
-: Third party service, just include style sheets and add classes to elements and get cool looking icons -> fontawesome.com 
+: Third party service, just include style sheets and add classes to elements and get cool looking icons -> fontawesome.com .... for icon -> "fas fa-brain"...for making it big "fa-2x","fa-3x"...for social media "fab fa-facebook"
 : For JS maps api key -> Google console(search, it will lead to google cloud platform)
 : To get google map script file -> google map docs 
 : To get latitude and longitude for any location -> latlong.net 
@@ -56,6 +56,8 @@ LINKS:
 "<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>"
 
 and this has to be added just before closing the body tag, And then in the js file add the code for smooth scrolling.
+
+: For creating favicon, type on google dynamic drive favicon -> toots.dynamicdrive.com - upload the icon(png/jpg) to create favicon.ico
 
 
 
