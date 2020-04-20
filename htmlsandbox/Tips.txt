@@ -26,6 +26,7 @@ and check how it looks on other devices
 
 -> we should always add JavaScript files at the end of the index page.
 -> some professional fonts are = Roboto, Staatliches, Lato
+-> small tag is a inline element that will basically make the elements small
 
 
 
