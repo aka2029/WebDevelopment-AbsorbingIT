@@ -25,6 +25,7 @@ and check how it looks on other devices
 -> Look closely - "font: normal 1rem/1.5 'Arial', sans-serif"
 
 -> we should always add JavaScript files at the end of the index page.
+-> some professional fonts are = Roboto, Staatliches, Lato
 
 
 
