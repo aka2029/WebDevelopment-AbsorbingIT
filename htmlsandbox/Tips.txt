@@ -70,6 +70,11 @@ and to make the form functional search Netlify form and see example
 
 
 HELPFUL SHORTCUTS:
+Inbuilt vscode terminal -> Ctrl + ~
+To clear terminal -> Ctrl + L
+To know npm version -> npm --version
+To create package.json file, we added -y so we dont have to ans bunch of questions
+ and it will give the default -> npm init -y 
 Website's source code -> Ctrl + U
 To find something on website -> Ctrl + F
 To write comment in vscode -> Ctrl + ?
