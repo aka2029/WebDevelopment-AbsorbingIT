@@ -17,3 +17,13 @@ $$ .section {
   &-a {  //&- represents whatever is the parent selector. Here it is section-a
   }
 }
+      ANOTHER EXAMPLE
+a {
+  color: #333;
+  
+  &:hover {
+    color: coral;
+  }
+}
+
+$$ Difference between a function and a Mixin is that a function actually returns something and we have to use the return keyword. A Mixin is just a set of styles that you want to include.
