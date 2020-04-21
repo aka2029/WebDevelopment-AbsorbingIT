@@ -32,12 +32,12 @@ header {
 
   &-a { //it represents whatever is the parent selector i.e selector-a
     background: $primary-color;
-    color: #fff;
+    color: set-text-color($primary-color);
   }
 
   &-b {
     background: $secondary-color;
-    color: #fff;
+    color: set-text-color($secondary-color);
   }
 }
 
@@ -62,12 +62,23 @@ a {
   &-light {
     @extend %btn-shared;
     background-color: $light-color;
-    color: #333;
+    color: set-text-color($light-color);
+
+    &:hover {
+      @include transform(rotate(20deg));
+      background-color: darken($light-color, 10%); //this is pre-defined function
+    }
   }
 
   &-dark {
     @extend %btn-shared;
     background-color: $dark-color;
-    color: #fff;
+    color: set-text-color($dark-color);
+
+
+    &:hover {
+      @include transform(rotate(-20deg));
+      background-color: lighten($dark-color, 10%); //this is pre-defined function
+    }
   }
 }

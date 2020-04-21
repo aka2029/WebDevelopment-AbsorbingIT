@@ -1,8 +1,15 @@
-// Set Text Color
+// Set Text Color, it will atomatically decide what the text color should be just by knowing the background color
 @function set-text-color($color) {
   @if (lightness($color) > 50) {  //here 50 means %'age
     @return #000;
   } @else {
     @return #fff;
   }
+}
+
+// Transform mixin
+@mixin transform($property) {
+  --webkit-transform: $property;
+  --ms-transform: $property;
+  transform: $property;
 }
