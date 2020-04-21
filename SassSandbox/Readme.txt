@@ -11,3 +11,9 @@ $$ Using underscore in this file naming tells the compiler that we don't want th
 & While importing the file just write "@import 'variables';" on top of the main.scss file ... see that we haven't included the _ or .scss extension.
 
 $$ after creating every new file in scss , re-run sass from the terminal
+
+$$ .section {
+
+  &-a {  //&- represents whatever is the parent selector. Here it is section-a
+  }
+}
