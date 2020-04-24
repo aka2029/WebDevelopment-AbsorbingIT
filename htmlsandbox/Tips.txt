@@ -73,10 +73,11 @@ HELPFUL SHORTCUTS:
 Inbuilt vscode terminal -> Ctrl + ~
 To clear terminal -> Ctrl + L
 
-To know npm version -> npm --version
-To create package.json file, we added -y so we dont have to ans bunch of questions and it will give the default -> npm init -y Or dont put -y and hit enter in all the questions but in description write the project name.
-Now, we want to install node sass -> npm install node-sass -D (by D we are using it as a dev dependency).
-Now, in the package.json file change test to sass so we can do npm run sass and also change within ""
+-To know npm version -> npm --version
+-To create package.json file, we added -y so we dont have to ans bunch of questions and it will give the default -> npm init -y Or dont put -y and hit enter in all the questions but in description write the project name.
+-Now, we want to install node sass -> npm install node-sass -D (by D we are using it as a dev dependency).
+-Now, in the package.json file change test to sass so we can do npm run sass and also change within ""
+-Then after doing the code in scss folder(main.scss) do "npm run sass" and this will automatically create a css folder in dist...after this no need to touch the css folder just go on with the scss folder.
 
 Website's source code -> Ctrl + U
 To find something on website -> Ctrl + F
