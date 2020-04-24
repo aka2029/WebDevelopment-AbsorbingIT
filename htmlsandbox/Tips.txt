@@ -33,6 +33,7 @@ and check how it looks on other devices
 EXTENSIONS USED IN vscode:
 : LIVE SERVER 
 : IntelliSense for CSS class names
+: Prettier - code formatter
 
 
 
