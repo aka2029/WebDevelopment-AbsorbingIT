@@ -43,6 +43,8 @@ GOOGLE'S DEVELOPER TOOLS:
 
 
 LINKS:
+: For free hosting -> Netlify.com 
+and to make the form functional search Netlify form and see example
 : trends.google.com -> use it every now and then
 : source.unsplash.com -> for having some kind of random image.
 : W3 Schools -> very informative site
@@ -62,8 +64,6 @@ LINKS:
 and this has to be added just before closing the body tag, And then in the js file add the code for smooth scrolling.
 
 : For creating favicon, type on google dynamic drive favicon -> toots.dynamicdrive.com - upload the icon(png/jpg) to create favicon.ico
-: For free hosting -> Netlify.com 
-and to make the form functional search Netlify form and see example
 : Using git without cloning -> git init; git add .; git commit -m "Initial Commit"; git remote add origin "link"; git push -u origin master; git push;
   What i do 'git init; git clone "link" then git add .; git commit -m "new commit"; git push'
 : The best site for domain names -> namecheap.com
