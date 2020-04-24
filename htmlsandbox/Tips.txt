@@ -112,4 +112,12 @@ ALL ABOUT SASS:
                                   @extend %btn-shared;
                                   color: #333;  }
                               }
--
+
+
+ALL ABOUT THE FILE ".gitignore"
+-> Allows us to specific the files and folders that we dont want to upload on github
+-> we installed node sass which is located in node_modules folder,
+you dont want to push node_modules folder... these are just dependencies of the project, if 
+someone wants to use your project, they'll pull it from github and they'll run "npm install"
+that will look at any packages you've installed such as node-sass, and it will then create the node_modules
+folder with those dependencies.
