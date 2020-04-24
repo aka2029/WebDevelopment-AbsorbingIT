@@ -25,7 +25,7 @@ and check how it looks on other devices
 -> Look closely - "font: normal 1rem/1.5 'Arial', sans-serif"
 
 -> we should always add JavaScript files at the end of the index page.
--> some professional fonts are = Roboto, Staatliches, Lato
+-> some professional fonts are = Roboto, Staatliches, Lato, Dosis
 -> small tag is a inline element that will basically make the elements small
 
 
@@ -73,13 +73,6 @@ and to make the form functional search Netlify form and see example
 HELPFUL SHORTCUTS:
 Inbuilt vscode terminal -> Ctrl + ~
 To clear terminal -> Ctrl + L
-
--To know npm version -> npm --version
--To create package.json file, we added -y so we dont have to ans bunch of questions and it will give the default -> npm init -y Or dont put -y and hit enter in all the questions but in description write the project name.
--Now, we want to install node sass -> npm install node-sass -D (by D we are using it as a dev dependency).
--Now, in the package.json file change test to sass so we can do npm run sass and also change within ""
--Then after doing the code in scss folder(main.scss) do "npm run sass" and this will automatically create a css folder in dist...after this no need to touch the css folder just go on with the scss folder.
-
 Website's source code -> Ctrl + U
 To find something on website -> Ctrl + F
 To write comment in vscode -> Ctrl + ?
@@ -98,3 +91,25 @@ To auto-fill if -> Eg. h1#about = <h1 id="about"></h1>
 To auto-fill div either use above method or -> #about = <div id="about"></div>
 To auto-fill box and id -> #box-1.box = <div id="box-1" class="box"></div>
 
+
+
+ALL ABOUT SASS:
+-To know npm version -> npm --version
+-To create package.json file, we added -y so we dont have to ans bunch of questions and it will give the default -> npm init -y Or dont put -y and hit enter in all the questions but in description write the project name.
+-Now, we want to install node sass -> npm install node-sass -D (by D we are using it as a dev dependency).
+-Now, in the package.json file change test to sass so we can do npm run sass and also change within ""
+-Then after doing the code in scss folder(main.scss) do "npm run sass" and this will automatically create a css folder in dist...after this no need to touch the css folder just go on with the scss folder.
+-Files in scss with name starting with _ (eg _config.scss) do not get compiled and are automatically added if we put (@import 'config';) at the top of the main.scss file
+-Eg. to create a base shared class for all buttons do like this
+
+                              %btn-shared { // This is a base shared button style so all btns will share this style }
+
+                              .btn {
+                                &-main {
+                                  @extend %btn-shared;
+                                  color: #333;  }
+                                &-light {
+                                  @extend %btn-shared;
+                                  color: #333;  }
+                              }
+-

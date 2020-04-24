@@ -11,4 +11,9 @@ $ Don't Forget The Bookmarks Within The Course
 9) Project: Quick_Dropdown_Menu
 10)cssGridSandbox
 11)Project: NewsGrid_Website
-12)
+12)Website Deployment with Netlify
+13)SassSandbox
+14)Project: Portfolio_Website
+
+After JavaScript also do this: 
+1. https://www.youtube.com/watch?v=POX3dT-pB4E //HOW TO DO TYPEWRITER.JS 
