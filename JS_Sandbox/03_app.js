@@ -35,9 +35,9 @@ console.log(val.toFixed(2)); // This method only works on nos. toFixed() allows 
 
 console.clear();
 
-const val1 = "5"; //this also converted 5 into string and ans came 56
+const val1 = "5"; //this also converted 5 into string or do String(5);
 const val2 = 6;
-const sum = val1 + val2;
+const sum = val1 + val2; //the ans came 56 which is an example of type coersion..now to convert it into numer do -> const sum = Number(val1 + val2); or do parseInt()
 
 console.log(sum);
 console.log(typeof sum);
