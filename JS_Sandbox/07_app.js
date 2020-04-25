@@ -35,5 +35,29 @@ numbers.splice(1, 3); //we're telling where we wanna start & where to end(end is
 // Reverse
 numbers.reverse();
 
+// CONCATENATE ARRAYS
+val = numbers.concat(numbers2);
+
+// SORTING ARRAYS
+val = fruit.sort();
+val = numbers.sort();
+
+// USE THE "COMPARE FUNCTION" [HOW ????]
+val = numbers.sort(function(x, y) {
+  return x - y;
+});
+
+// REVERSE SORT
+val = numbers.sort(function(x, y) {
+  return y - x;
+});
+
+// FIND
+function under50(num) {
+  return num < 50;
+}
+
+val = numbers.find(under50);
+
 console.log(numbers);
 console.log(val);
