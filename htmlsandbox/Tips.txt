@@ -35,6 +35,8 @@ EXTENSIONS USED IN vscode:
 : LIVE SERVER 
 : IntelliSense for CSS class names
 : Prettier - code formatter
+: Bracket Pair Colorizer - multicolored brackets
+: JavaScript code snippets - For js snippets
 
 
 
