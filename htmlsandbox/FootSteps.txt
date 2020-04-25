@@ -1,4 +1,4 @@
-$ Don't Forget The Bookmarks Within The Course
+$ The Bookmarks are also imp**
 
 1) htmlSandbox
 2) cssSandbox
