@@ -40,7 +40,7 @@ function hello() {
   return "hello";
 }
 
-// With template strings (ES6) -> use backticks ``, this is how it knows that it is a template string
+// With template strings (ES6) -> use backticks ``, this is how it knows that it is a template string... Moreover, Template literals are string literals allowing embedded expressions. You can use multi-line strings and string interpolation features with them. They were called "template strings" in prior editions of the ES2015 specification
 html = `
   <ul>
     <li>Name: ${name}</li>
