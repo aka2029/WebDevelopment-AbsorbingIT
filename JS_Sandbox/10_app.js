@@ -7,7 +7,7 @@
   }
 */
 
-const id = 100; //assigning
+const id = "100"; //assigning
 
 // EQUAL TO
 if (id == 100) {
@@ -51,3 +51,52 @@ if (typeof id != "undefined") {
 }
 
 console.clear();
+
+// Greater or Less than -> >, <, >=, <=
+if (id > 200) {
+  console.log("correct");
+} else {
+  console.log("incorrect");
+}
+
+console.clear();
+
+// If else
+const color = "red";
+
+if (color === "red") {
+  console.log("Color is red");
+} else if (color === "blue") {
+  console.log("color is blue");
+} else {
+  console.log("color is not red or blue");
+}
+
+console.clear();
+
+// LOGICAL OPERATORS
+const name = "Steve";
+const age = 20;
+
+if (age > 0 && age < 12) {
+  //makes sure that both are true
+  console.log(`${name} is a child`);
+} else if (age >= 13 && age <= 19) {
+  console.log(`${name} is a teenager`);
+} else {
+  console.log(`${name} is an adult`);
+}
+
+console.clear();
+
+// OR ||
+if (age < 16 || age > 65) {
+  console.log(`${name} can not run in race`);
+} else {
+  console.log(`${name} is registered for the race`);
+}
+
+console.clear();
+
+// TERNARY OPERATOR
+console.log(id === 100 ? "Correct" : "Incorrect");
