@@ -100,3 +100,7 @@ console.clear();
 
 // TERNARY OPERATOR
 console.log(id === 100 ? "Correct" : "Incorrect");
+
+// WITHOUT BRACES -> not suggested
+if (id === 100) console.log("CORRECT");
+else console.log("INCORRECT");
