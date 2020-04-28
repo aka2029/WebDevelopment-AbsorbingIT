@@ -1,4 +1,4 @@
-// selectors that select more than one elements & return either html collection or node list , which are similar to arrays but there are certain things that we can't do. but they can also be converted to regular arrays very easily
+// DOM SELECTORS FOR MULTIPLE ELEMENTS - selectors that select more than one elements & return either html collection or node list , which are similar to arrays but there are certain things that we can't do. but they can also be converted to regular arrays very easily
 
 /*  */
 // --------------------------------------------------------------------------
