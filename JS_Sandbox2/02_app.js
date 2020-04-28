@@ -4,8 +4,8 @@
 
 // DIFFERENT SELECTORS - COUPLE ELEMENT & SINGLE ELEMENT SELECTORS , previously we've looked at couple now let's see 2 single element selectors
 
-/*
-
+/* */
+// -------------------------------------------------------------------------
 // document.getElementById()
 console.log(document.getElementById("task-title")); //selecting h5
 
@@ -27,8 +27,7 @@ taskTitle.textContent = "Task List";
 taskTitle.innerText = "My Tasks";
 taskTitle.innerHTML = "<span style = 'color:red'>Task List</span>";
 
-*/
-
+// -------------------------------------------------------------------------
 // document.querySelector() - much powerfull and works like jQuery
 console.log(document.querySelector("#task-title"));
 console.log(document.querySelector(".card-title"));
