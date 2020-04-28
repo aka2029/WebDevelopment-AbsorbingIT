@@ -126,7 +126,8 @@ that will look at any packages you've installed such as node-sass, and it will t
 folder with those dependencies.
 
 
-LIVE SERVER ISN'T WORKING:
+**LIVE SERVER ISN'T WORKING:
 : Searched online and though maybe the latest npm version isn't supporting live server... so, i downloaded 
 the npm version that Brad was using(6.7.0) By using the command (npm install -g npm@3.7.0). To download the
 latest version write this (npm install -g npm@latest)
+: Also downloaded the chrome extension of this same live server but still nothing happened.
