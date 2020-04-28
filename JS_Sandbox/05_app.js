@@ -47,7 +47,7 @@ val = firstName.charAt(firstName.length - 1); //-1 because it would give the loc
 val = firstName.substring(0, 4);
 
 // slice() ->slice is mostly used with arrays to pull things out of arrays but you can also use it with string
-val = firstName.slice(0, 4); //very similar to substring
+val = firstName.slice(0, 4); //very similar to substring but 4 is not included
 val = firstName.slice(-3); //it will start from back and will take the last 3
 
 // split() -> this can be really handy, it splits a string into an array based on a seperator

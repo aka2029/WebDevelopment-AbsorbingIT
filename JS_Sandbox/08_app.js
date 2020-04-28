@@ -1,5 +1,7 @@
 // OBJECT LITERALS -> A JavaScript object literal is a comma-separated list of name-value pairs wrapped in curly braces. Object literals encapsulate data, enclosing it in a tidy package. This minimizes the use of global variables which can cause problems when combining code.
 
+// **YOU REALLY HAVE TO UNDERSTAND THE DIFFERENCE BETWEEN OBJECT, ARRAY, ARRAY OF OBJECTS, TEMPLATE LITERALS AND OBJECT LITERALS
+
 // define object literals
 const person = {
   firstName: "Steve",
@@ -31,6 +33,7 @@ val = person.getBirthYear();
 
 console.log(val);
 
+// this is array of objects
 const people = [
   { name: "John", age: 30 },
   { name: "Mike", age: 23 },

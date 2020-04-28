@@ -73,6 +73,8 @@ console.log(nName);
 // cann't reassign like nName = 'Sara';
 // Have to assign a value ie cann't leave like this (const greeting;)
 
+//  Objects are variables too. But objects can contain many values.
+// The values are written as name : value pairs (name and value separated by a colon).
 const person = {
   nnName: "John",
   age: 30

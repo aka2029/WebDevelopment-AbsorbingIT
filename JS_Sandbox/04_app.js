@@ -21,8 +21,8 @@ val = Math.sqrt(64);
 val = Math.abs(-3); //gives the absolute version of it
 val = Math.pow(8, 2); //8 to the power 2
 val = Math.min(2, 25, 94, 1, 3, 65); //returns min
-val = Math.max(2, 25, 94, 1, 3, 65); //returns max=
-val = Math.random(); //generates random nos. (any)
+val = Math.max(2, 25, 94, 1, 3, 65); //returns max
+val = Math.random(); //generates random nos. between 0 and 1 [excluded] (any)
 val = Math.random() * 20; //this would give random no. between 0 and 19... with decimal arm
 val = Math.random() * 20 + 1; //this would give random no. between 1 and 20... with decimal arm
 val = Math.floor(Math.random() * 20 + 1); //this would give random whole no. between 1 and 20

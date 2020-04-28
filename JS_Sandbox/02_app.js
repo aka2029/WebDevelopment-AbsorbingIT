@@ -8,7 +8,7 @@ const name = "John Doe";
 const age = 45;
 // Boolean
 const hasKids = true;
-// Null in console it shows object since its a bug [In JavaScript, typeof null is 'object', which incorrectly suggests that null is an object (it isn't, it's a primitive value, consult my blog post on categorizing values for details). This is a bug and one that unfortunately can't be fixed, because it would break existing code.]
+// Null in console, shows as object since its a bug [In JavaScript, typeof null is 'object', which incorrectly suggests that null is an object (it isn't, it's a primitive value). This is a bug and one that unfortunately can't be fixed, because it would break existing code.]
 const car = null;
 
 // Undefined

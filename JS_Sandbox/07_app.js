@@ -1,5 +1,9 @@
 // ARRAYS & ARRAYS METHODS
 
+// Read this for difference between Arrays and objects : "https://www.metaltoad.com/blog/javascript-understanding-objects-vs-arrays-and-when-use-them-part-1"
+
+// For array sort read this : "https://www.w3schools.com/js/js_array_sort.asp"
+
 // arrays can be mutated(ie can be modified) and iterated though & can be used in some really complex algorithms, now create some arrays...
 
 const numbers = [43, 56, 33, 23, 44, 36, 5];
@@ -31,7 +35,7 @@ numbers.pop();
 // Take off from front
 numbers.shift();
 // Splice values
-numbers.splice(1, 3); //we're telling where we wanna start & where to end(end is included)
+numbers.splice(1, 3); //we're telling where we wanna start & where to end(end is included) & this part gets removed
 // Reverse
 numbers.reverse();
 
@@ -40,9 +44,9 @@ val = numbers.concat(numbers2);
 
 // SORTING ARRAYS
 val = fruit.sort();
-val = numbers.sort();
+val = numbers.sort(); //it sorts by the first no. like in fruit & this isn't what we wanna do
 
-// USE THE "COMPARE FUNCTION" [HOW ????]
+// USE THE "COMPARE FUNCTION" -> do numbers.sort(); and pass a function inside
 val = numbers.sort(function(x, y) {
   return x - y;
 });
@@ -52,7 +56,7 @@ val = numbers.sort(function(x, y) {
   return y - x;
 });
 
-// FIND
+// FIND -> we created a function & passed it inside find method
 function under50(num) {
   return num < 50;
 }
