@@ -124,3 +124,9 @@ you dont want to push node_modules folder... these are just dependencies of the 
 someone wants to use your project, they'll pull it from github and they'll run "npm install"
 that will look at any packages you've installed such as node-sass, and it will then create the node_modules
 folder with those dependencies.
+
+
+LIVE SERVER ISN'T WORKING:
+: Searched online and though maybe the latest npm version isn't supporting live server... so, i downloaded 
+the npm version that Brad was using(6.7.0) By using the command (npm install -g npm@3.7.0). To download the
+latest version write this (npm install -g npm@latest)
