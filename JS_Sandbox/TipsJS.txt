@@ -8,3 +8,9 @@ READING RESOURCES SUGGESTED:
 LINKS:
 : using materialize in projects, just use the link on -> materializecss.com
 : 
+
+THINGS THAT NEED A LOT OF MY ATTENTION:
+1. e i.e event tag
+2. JSON parsing & stringify when storing it in local storage
+3. nodelist and array and string usage and when to convert
+4. 
