@@ -1,6 +1,9 @@
 -> you can do pretty much everything that you do in your js file from within your console.. it goes on refreshing and should be used for testing purposes.
--> For using the materialize, go to get started - then CDN - put both links provided in the code.... moreover, it also needs jQuery as a dependency.
-Remember to add jQuery before materialize & fontawesome cdn after materialize. And index.js file at the end
+-> For using the materialize, go to get started - then CDN - put both links provided in the code.... moreover, it also needs jQuery as a dependency.  Remember to add jQuery before materialize & fontawesome cdn after materialize. And index.js file at the end..... JUST DOING THIS WILL MAKE THE WORK A LOT SIMPLER AND IT REMOVED THE CSS WORK.
+-> in Task List project, while deleting we have to delete multiple of them and they are dynamic so we have to use EVENT DELEGATION.
+
+READING RESOURCES SUGGESTED:
+: To know the difference between the innerHTML and remove child "https://jsperf.com/innerhtml-vs-removechild/47" (Mainly recommended for Task list project)
 
 LINKS:
 : using materialize in projects, just use the link on -> materializecss.com
