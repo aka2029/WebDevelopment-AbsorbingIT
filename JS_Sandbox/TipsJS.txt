@@ -1,2 +1,7 @@
 -> you can do pretty much everything that you do in your js file from within your console.. it goes on refreshing and should be used for testing purposes.
--> 
+-> For using the materialize, go to get started - then CDN - put both links provided in the code.... moreover, it also needs jQuery as a dependency.
+Remember to add jQuery before materialize & fontawesome cdn after materialize. And index.js file at the end
+
+LINKS:
+: using materialize in projects, just use the link on -> materializecss.com
+: 
