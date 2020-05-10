@@ -3,4 +3,5 @@ The path that was taken was:
 2) JS_Sandbox2
 3) Project: Task List
 4) Project: Loan Calculator
-5)
+5) Project: Number Gusser
+6)
