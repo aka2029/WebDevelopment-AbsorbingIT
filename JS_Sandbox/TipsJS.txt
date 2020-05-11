@@ -3,6 +3,7 @@
 -> in Task List project, while deleting we have to delete multiple of them and they are dynamic so we have to use EVENT DELEGATION.
 -> REMEMBER ONE THING - in JS unlike other programming languages the functions GET HOISTED ie they get put to the top, so we can call function before we can actually declare them.
 -> (object literals) - This is fine when you want to deal with one object or one instance but if you want to create multiple instances of a certain type of object then you wanna create a constructor. If you wanna get into prototypes and inheritance and all that kind of stuff then you wanna know about it.
+-> (event delegation) - if something is gonna show up more than once with the same class or something that is not there when the page loads, but is dynamically added then we use event delegation
 
 READING RESOURCES SUGGESTED:
 : To know the difference between the innerHTML and remove child "https://jsperf.com/innerhtml-vs-removechild/47" (Mainly recommended for Task list project)
