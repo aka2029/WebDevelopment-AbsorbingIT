@@ -1,4 +1,5 @@
 // XHR Object methods & working with Test
+
 // Ajax and xhr are more complicated than fetch
 // will only work with live server
 
@@ -8,7 +9,7 @@ function loadData() {
   // Create an XHR Object
   const xhr = new XMLHttpRequest(); // just as we would use any constructor for an object
 
-  // OPEN - one of the methods/properties - get is to read the file, then comes file name
+  // OPEN - one of the methods/properties - get is to read the file, then comes file name and true is for it being Asyncronous
   xhr.open("GET", "data.txt", true);
 
   // console.log("READYSTATE", xhr.readyState);
@@ -62,3 +63,36 @@ function loadData() {
   // 403: "Forbidden"
   // 404: "Not Found"
 }
+
+/*  --------------------------------------------------------------
+  
+html page used:
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- skeleton cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+      integrity="sha256-ECB9bbROLGm8wOoEbHcHRxlHgzGqYpDtNTgDTyDz0wg="
+      crossorigin="anonymous"
+    />
+    <title>Ajax Sandbox</title>
+  </head>
+  <body>
+    <div class="container">
+      <button id="button">Get Data</button>
+      <br /><br />
+      <div id="output"></div>
+    </div>
+
+    <script src="01_app.js"></script>
+  </body>
+</html>
+
+
+ */
