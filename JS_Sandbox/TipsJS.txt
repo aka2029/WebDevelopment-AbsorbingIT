@@ -22,6 +22,8 @@ LINKS:
 : using materialize in projects, just use the link on -> materializecss.com [Project: Task List]
 : using bootstrap in projects, just use the getting starter link on -> getbootstrap.com [Project: Loan Calculator]
 : using skeleton cdn in projects, just use the lind on skeleton.com [Project Number Gusser]
+: to validate JSON -> "https://jsonlint.com/"
+: the internet chuck norris database (api's) -> "http://www.icndb.com/"
 
 THINGS THAT NEED A LOT OF MY ATTENTION:
 1. e i.e event tag
