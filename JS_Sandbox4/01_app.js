@@ -11,11 +11,41 @@ function loadData() {
   // OPEN - one of the methods/properties - get is to read the file, then comes file name
   xhr.open("GET", "data.txt", true);
 
+  // console.log("READYSTATE", xhr.readyState);
+
+  // Optional - Used for spinners/loaders
+  xhr.onprogress = function() {
+    console.log("READYSTATE", xhr.readyState);
+  };
+
   xhr.onload = function() {
-    // here we'll do what ever we need to do with the data that we get
+    // here we'll do what ever we need to do with the data that we get - this is pretty new before this we had to check using .onreadystatechange as shown below in the comment. in this its already at ready state directly from 1 to 4
+
+    console.log("READYSTATE", xhr.readyState);
+
     if (this.status === 200) {
+      // console.log(this.responseText);
+      document.getElementById(
+        "output"
+      ).innerHTML = `<h1>${this.responseText}</h1>`; //this lead to no page refresh, nothing like that ... all happended behind the scene
+    }
+  };
+
+  /*
+
+  xhr.onreadystatechange = function() {
+    console.log("READYSTATE", xhr.readyState);
+
+    if (this.status === 200 && this.readyState === 4) {
       console.log(this.responseText);
     }
+  };
+
+  */
+
+  // only run if something goes wrong
+  xhr.onerror = function() {
+    console.log("Request error...");
   };
 
   xhr.send();
