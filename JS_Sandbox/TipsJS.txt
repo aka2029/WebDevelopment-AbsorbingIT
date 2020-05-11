@@ -1,3 +1,5 @@
+-> REMEBER ONE THING SPECIALLY FOR AJAX AND ONWARDS, because of "Changes to Cross-Origin Requests in Chrome Extension Content Scripts" error so, using live server is essential. If the live server extension in VScode doesn't work then use npm live server and run on command prompt by the command "live-server"
+
 -> you can do pretty much everything that you do in your js file from within your console.. it goes on refreshing and should be used for testing purposes.
 -> For using the materialize, go to get started - then CDN - put both links provided in the code.... moreover, it also needs jQuery as a dependency.  Remember to add jQuery before materialize & fontawesome cdn after materialize. And index.js file at the end..... JUST DOING THIS WILL MAKE THE WORK A LOT SIMPLER AND IT REMOVED THE CSS WORK.
 -> in Task List project, while deleting we have to delete multiple of them and they are dynamic so we have to use EVENT DELEGATION.
