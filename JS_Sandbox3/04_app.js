@@ -1,4 +1,5 @@
 // Prototype Inheritance - what if we wanna have one object type inherit from another
+// read this "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain"
 
 // Person constructor
 function Person(firstName, lastName) {

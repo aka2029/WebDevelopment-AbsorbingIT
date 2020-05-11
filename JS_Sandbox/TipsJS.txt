@@ -8,6 +8,7 @@ READING RESOURCES SUGGESTED:
 : To know the difference between the innerHTML and remove child "https://jsperf.com/innerhtml-vs-removechild/47" (Mainly recommended for Task list project)
 : know the difference between event delegation and event bubbling
 : know the difference between Objects, Object Literals and Template Literals.
+: Inheritance and the prototype chain - Read this (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 
 LINKS:
 : using materialize in projects, just use the link on -> materializecss.com [Project: Task List]
