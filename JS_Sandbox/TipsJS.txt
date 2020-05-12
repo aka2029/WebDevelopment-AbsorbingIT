@@ -17,6 +17,7 @@ READING RESOURCES SUGGESTED:
 : know the difference between event delegation and event bubbling
 : know the difference between Objects, Object Literals and Template Literals.
 : Inheritance and the prototype chain - Read this (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+: Know about CORS policy in detain. 
 
 LINKS:
 : using materialize in projects, just use the link on -> materializecss.com [Project: Task List]
