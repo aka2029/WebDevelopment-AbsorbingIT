@@ -1,4 +1,4 @@
-// THE FETCH API - is the new standard to make HTTP Request hence promises are important
+// THE FETCH API - is the new standard to make HTTP Request hence promises are important. (A lot of stuff that we do with XMLHTTPRequest)
 
 // Fetch is now part of the window object. Now we'll be recreating the easyHTTP library that we created using fetch and using some updated standards from Es6. Instead of using prototypes, using classes, using promises, Arrow functions, etc
 
@@ -114,3 +114,58 @@ html page used : (with posts.json, test.txt, data.txt)
 </html>
 
 */
+
+/*  AFTER IMPLEMENTING ARROW FUNCTION
+
+// Get local text file
+function getText() {
+  fetch("test.txt")
+    .then(res => res.text())
+    .then(data => {
+      console.log(data);
+      document.getElementById("output").innerHTML = data;
+    })
+    .catch(err => console.log(err));
+}
+
+// Get local json data
+function getJson(e) {
+  fetch("posts.json")
+    .then(res => res.json())
+
+    .then(data => {
+      console.log(data);
+      let output = "";
+
+      data.forEach(function(post) {
+        output += `<li>${post.title}</li>`;
+      });
+      document.getElementById("output").innerHTML = output;
+    })
+
+    .catch(err => console.log(err));
+
+  e.preventDefault();
+}
+
+// Get from external API
+function getExternal(e) {
+  fetch("https://api.github.com/users")
+    .then(res => res.json())
+
+    .then(data => {
+      console.log(data);
+
+      let output = "";
+
+      data.forEach(function(user) {
+        output += `<li>${user.login}</li>`;
+      });
+      document.getElementById("output").innerHTML = output;
+    })
+
+    .catch(err => console.log(err));
+
+  e.preventDefault();
+}
+ */
