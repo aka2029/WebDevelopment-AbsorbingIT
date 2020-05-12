@@ -67,7 +67,7 @@ function loadCustomers(e) {
 }
 
 /*  -------------------------------------------------------------
-  html page used-
+  html page used with (customer.json, customers.json)
 
   <!DOCTYPE html>
 <html lang="en">

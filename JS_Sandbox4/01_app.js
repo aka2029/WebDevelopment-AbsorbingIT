@@ -66,7 +66,7 @@ function loadData() {
 
 /*  --------------------------------------------------------------
   
-html page used:
+html page used with (data.txt)
 
 <!DOCTYPE html>
 <html lang="en">
