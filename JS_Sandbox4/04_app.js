@@ -1,0 +1,1 @@
+// CALLBACK FUNCTIONS (the prev vid was on REST api & HTTP Requests) - we've already dealt with call backs quite a bit, a callback is a function that is simply passed in a parameter to another function and is then ran inside the function body
