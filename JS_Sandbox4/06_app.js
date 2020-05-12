@@ -2,8 +2,6 @@
 
 // Edited the 04_app.js to use promises insted of callback
 
-// The fetchApi is the new standard to make HTTP Request hence promises are important
-
 const posts = [
   { title: "Post One", body: "This is post one" },
   { title: "Post Two", body: "This is post two" }
