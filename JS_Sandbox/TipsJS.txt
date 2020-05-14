@@ -24,6 +24,7 @@ LINKS:
 : using materialize in projects, just use the link on -> materializecss.com [Project: Task List]
 : using bootstrap in projects, just use the getting starter link on -> getbootstrap.com [Project: Loan Calculator]
 : using skeleton cdn in projects, just use the lind on skeleton.com [Project Number Gusser]
+: using bootswatch in projects, just use the link or download the file and link it locally -> bootswatch.com [Project Github Finder]
 : to validate JSON -> "https://jsonlint.com/"
 : the internet chuck norris database (api's) -> "http://www.icndb.com/"
 : Fake online REST API for testing and prototyping -> "https://jsonplaceholder.typicode.com/"
