@@ -29,6 +29,7 @@ LINKS:
 : the internet chuck norris database (api's) -> "http://www.icndb.com/"
 : Fake online REST API for testing and prototyping -> "https://jsonplaceholder.typicode.com/"
 : GitHub has its own api -> "api.github.com"  but in 07_app.js we used "api.github.com/users"
+: Weather Api -> "https://openweathermap.org/"
 
 THINGS THAT NEED A LOT OF MY ATTENTION:
 1. e i.e event tag
