@@ -1,4 +1,4 @@
--> REMEBER ONE THING SPECIALLY FOR AJAX AND ONWARDS, because of "Changes to Cross-Origin Requests in Chrome Extension Content Scripts" error so, using live server is essential. If the live server extension in VScode doesn't work then use npm live server and run on command prompt by the command "live-server"
+-> REMEBER ONE THING SPECIALLY FOR AJAX AND ONWARDS, because of "Changes to Cross-Origin Requests in Chrome Extension Content Scripts" error so, using live server is essential. If the live server extension in VScode doesn't work then use npm live server [command: npm install -g live-server] and run on command prompt by the command "live-server"
 
 -> JSON stands for JS OBJECT NOTATION and is very very similar to standart js object. 
 Moreover, there are many online programs to validate JSON (EG. jsonlint.com)
