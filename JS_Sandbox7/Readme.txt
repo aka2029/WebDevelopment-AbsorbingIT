@@ -1,3 +1,13 @@
+# Es6 introduced actual modules in JavaScript meaning that we can use separate files
+to export modules which are just custom pieces of code & import them into new file.
+However, this is still not supported in browsers, we'll have to use a compiler like
+Babel along with a module loader like web pack for that to work and i'll be making a
+project on it later.
+
+# But in Es5 we have something called the module pattern that allows us to break up 
+parts of our code into self-contained modules with private properties and methods or 
+private variables and functions.
+
 This is a very broad topic and very vast as well.
 so we'll be looking at the basics.
 
