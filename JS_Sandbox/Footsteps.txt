@@ -10,3 +10,4 @@ The path that was taken was:
 9)  Project: Github Finder
 10) Project: WhatsTheWeatherLike
 11) JS_Sandbox5
+12) JS_Sandbox6

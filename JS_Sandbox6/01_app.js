@@ -3,7 +3,8 @@
 // READ THIS : https://medium.com/@madasamy/explanation-about-iterators-and-generators-in-javascript-es6-f7e669cbe96e
 
 /*
-// Iterator Example
+ */
+// Iterator Example - has next & done, we use done: false when we are not done iterating through the loop
 function nameIterator(names) {
   let nextIndex = 0;
 
@@ -35,7 +36,6 @@ function* sayNames() {
 const name = sayNames();
 
 console.log(name.next());
-*/
 
 // ID Creator
 function* createIds() {
