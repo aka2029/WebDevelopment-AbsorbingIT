@@ -1,5 +1,6 @@
 // Form Blur Event Listeners
 document.getElementById("name").addEventListener("blur", validateName);
+//The blur event occurs when an element loses focus. The blur() method triggers the blur event, or attaches a function to run when a blur event occurs.
 document.getElementById("zip").addEventListener("blur", validateZip);
 document.getElementById("email").addEventListener("blur", validateEmail);
 document.getElementById("phone").addEventListener("blur", validatePhone);
@@ -17,7 +18,7 @@ function validateName() {
 
 function validateZip() {
   const zip = document.getElementById("zip");
-  const re = /^[0-9]{5}(-[0-9]{4})?$/;
+  const re = /^[0-9]{6}$/;
 
   if (!re.test(zip.value)) {
     zip.classList.add("is-invalid");
