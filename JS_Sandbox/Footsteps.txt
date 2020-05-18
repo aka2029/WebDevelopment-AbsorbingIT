@@ -11,3 +11,6 @@ The path that was taken was:
 10) Project: WhatsTheWeatherLike
 11) JS_Sandbox5
 12) JS_Sandbox6
+13) JS_Sandbox7 [Specially: the file, Small Project]
+14) Project: Track Calories
+15) Project: 
