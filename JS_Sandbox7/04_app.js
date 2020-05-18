@@ -120,3 +120,35 @@ const getCurSeconds = function() {
 };
 
 */
+
+/*
+  HTML REQUIRED FOR THIS CODE :
+
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JavaScript Sandbox: Patterns</title>
+  </head>
+  <body>
+    <h1>JavaScript Sandbox: Patterns</h1>
+    <button class="sub-ms">Subscribe to Milliseconds</button>
+    <button class="unsub-ms">Unsubscribe to Milliseconds</button>
+
+    <br /><br />
+
+    <button class="sub-s">Subscribe to Seconds</button>
+    <button class="unsub-s">Unsubscribe to Seconds</button>
+
+    <br /><br />
+
+    <button class="fire">Fire</button>
+
+    <script src="04_app.js"></script>
+  </body>
+</html>
+
+  
+*/
