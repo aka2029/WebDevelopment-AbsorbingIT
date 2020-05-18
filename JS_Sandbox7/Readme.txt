@@ -1,3 +1,5 @@
+THIS TOPIC WENT TOTALLY OVER MY HEAD ...!!
+
 # Es6 introduced actual modules in JavaScript meaning that we can use separate files
 to export modules which are just custom pieces of code & import them into new file.
 However, this is still not supported in browsers, we'll have to use a compiler like
