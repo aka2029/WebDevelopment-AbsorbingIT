@@ -1,0 +1,1 @@
+// OBSERVER PATTERN - which allows to SUBSCRIBE & UNSUBSCRIBE to certain events & certain functionality. It can be used to notify the DOM of certain elements to be updated. AngularJs relies heavily on this patterns through event management within the scope.
