@@ -31,6 +31,7 @@ LINKS:
 : GitHub has its own api -> "api.github.com"  but in 07_app.js we used "api.github.com/users"
 : Weather Api -> "https://openweathermap.org/"
 : The random user API, to have random, pics, emails, passwords etc -> "randomuser.me"
+: To get fontawesome cdn for html, go to -> "bootstrapcdn.com/fontawesome"
 
 THINGS THAT NEED A LOT OF MY ATTENTION:
 1. e i.e event tag
