@@ -12,6 +12,7 @@ Moreover, there are many online programs to validate JSON (EG. jsonlint.com)
 -> Asynchronous JS and working with technologies like AJAX and FetchAPI... ajax and http requests are older tech but reliable but fetch is new
 -> Synchronous is also called blocking code(57v)
 -> Github has a very well built REST Api. Availabel at "developer.github.com" but the only problem is that it allows only 100 access a day, and if you want more than you need to register that app on github using the link "github.com/settings/applications/new" -> this will create your github key. Moreover, if you view the source code and click on github.js file you're gonna see the client id and client secret in a constructor. YOu won't want to put this in constructor & is not a good practice.
+-> localStorage can only hold string by default, if we are passing array.. we'll have to turn it into a string(with JSON.stringify()) & if we need to pull it out into an object ( using JSON.parse())
 
 READING RESOURCES SUGGESTED:
 : To know the difference between the innerHTML and remove child "https://jsperf.com/innerhtml-vs-removechild/47" (Mainly recommended for Task list project)
