@@ -13,4 +13,4 @@ The path that was taken was:
 12) JS_Sandbox6
 13) JS_Sandbox7 [Specially: the file, Small Project]
 14) Project: Track Calories
-15) Project: 
+15) Project: Mind Map

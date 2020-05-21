@@ -1,5 +1,7 @@
 -> REMEBER ONE THING SPECIALLY FOR AJAX AND ONWARDS, because of "Changes to Cross-Origin Requests in Chrome Extension Content Scripts" error so, using live server is essential. If the live server extension in VScode doesn't work then use npm live server [command: npm install -g live-server] and run on command prompt by the command "live-server"
 
+-> To run "git bash" in the VsCode terminal Settings -> Preferences -> terminal.integrated.shell.windows -> Put this [C:\Program Files\Git\bin\bash.exe]....then add or remove terminals of your choice from the vscode terminal. [could have to go to the JSON format file then make changes accordingly]
+
 -> JSON stands for JS OBJECT NOTATION and is very very similar to standart js object. 
 Moreover, there are many online programs to validate JSON (EG. jsonlint.com)
 
