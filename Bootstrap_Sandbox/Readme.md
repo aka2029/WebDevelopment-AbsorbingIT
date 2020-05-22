@@ -11,3 +11,5 @@
 -> In bootstrap we have 4 different screen sizes : sm(small), md(medium), lg(large), xl(extra large) & for really small screens use the normal notations
 
 -> In "inline-block" You can create a grid of boxes that fills the browser width and wraps nicely. This has been possible for a long time using float , but now with inline-block it's even easier. inline-block elements are like inline elements but they can have a width and height.
+
+-> Making something something invisible is not same display: none. Because none takes it out of the dom and you can't see the space but in invisible it's there but you can't see it.
