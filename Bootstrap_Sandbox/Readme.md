@@ -3,3 +3,5 @@
 # Need to know
 
 -> for using bootstrap cdn, [getBootstrap.com] we put the css stylesheet link provided at this link along with the JS links mentioned. The JS links include jQuery, PopperJs & Bootstrap file included because these are required to execute the work, we look forward to do.
+
+-> Default Html size is 16px so 1rem = 16px & multiply accordingly ie 2rem = 16px \* 2
