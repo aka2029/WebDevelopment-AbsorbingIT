@@ -19,3 +19,5 @@
 -> In bootstrap when we say Pagination, we mean just the UI, we don't have the capability in bootstrap to do the actual working pagination [Pagination: Pagination refers to the concept of breaking a large set of data in smaller chunks so that it can easily be absorbed both by the application and the user.]
 
 -> Media Objects used in small blogs, side bars or news sites
+
+-> Jumbotron : A jumbotron indicates a big grey box for calling extra attention to some special content or information.
