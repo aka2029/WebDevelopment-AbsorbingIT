@@ -21,3 +21,9 @@
 -> Media Objects used in small blogs, side bars or news sites
 
 -> Jumbotron : A jumbotron indicates a big grey box for calling extra attention to some special content or information.
+
+-> Grid in bootstrap 3 used Css grid but in bootstrap 4 it uses flexbox.
+
+-> offsetting in grid system is useful for logging screen, where we need a very narrow layout. Moreover, the offset was removed from bootstrap 3 but was brought back with bootstrap 4.
+
+-> Most of the time go with md commands bec then in small screen it will be stacked & that's what we want.
