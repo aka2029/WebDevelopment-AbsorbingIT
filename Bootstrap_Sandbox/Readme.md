@@ -32,9 +32,12 @@
 
 ### JavaScript Widgets
 
--> Carousel Slider:
--> Collapse & Accordion:
--> Tooltips:
+-> Carousel Slider: Eg. the header of amazon prime
+-> Collapse & Accordion: Eg. the sidebars with index and subparts. & the timetable app [when that expands for mon, tue, etc]
+-> Tooltips: Just hover and it shows a message.
+
+This is wierd in bootstrap because somethings have to be initialized (USING jQuery) inorder to make them work, and not required for other.
+
 -> Popovers:
 -> Modals:
 -> ScrollSpy & Smooth Scrolling:
