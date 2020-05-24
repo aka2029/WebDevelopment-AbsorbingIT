@@ -28,7 +28,9 @@
 
 -> Most of the time go with md commands bec then in small screen it will be stacked & that's what we want.
 
--> While mentioning the total no. cols if we preceed 12 then it automatically wraps.
+-> While mentioning the total no. cols if we preceed 12 then it automatically wraps include the full version of jQuery because the slim version doesnot include the animate method.
+
+-> For scrollspy
 
 ### JavaScript Widgets
 
@@ -39,5 +41,5 @@
 This is wierd in bootstrap because somethings have to be initialized (USING jQuery) inorder to make them work, and not required for other.
 
 -> Popovers: actually very similar to tooltips. This also has to be initialized by jQuery just like tooltip.
--> Modals:
--> ScrollSpy & Smooth Scrolling:
+-> Modals: Eg. the popup login form
+-> ScrollSpy & Smooth Scrolling: Eg. when we scroll and reach home, that will be highlighted, similarly for about, services, etc etc. And custom jQuery so that when we click on the navbar it takes us to that section and also provides little bit of animation ie the smooth scrolling.
