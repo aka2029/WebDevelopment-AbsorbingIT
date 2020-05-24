@@ -27,3 +27,5 @@
 -> offsetting in grid system is useful for logging screen, where we need a very narrow layout. Moreover, the offset was removed from bootstrap 3 but was brought back with bootstrap 4.
 
 -> Most of the time go with md commands bec then in small screen it will be stacked & that's what we want.
+
+-> While mentioning the total no. cols if we preceed 12 then it automatically wraps.
