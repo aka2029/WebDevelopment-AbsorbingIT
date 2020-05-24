@@ -38,6 +38,6 @@
 
 This is wierd in bootstrap because somethings have to be initialized (USING jQuery) inorder to make them work, and not required for other.
 
--> Popovers:
+-> Popovers: actually very similar to tooltips. This also has to be initialized by jQuery just like tooltip.
 -> Modals:
 -> ScrollSpy & Smooth Scrolling:
