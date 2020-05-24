@@ -2,7 +2,7 @@
 
 # Need to know
 
--> for using bootstrap cdn, [getBootstrap.com] we put the css stylesheet link provided at this link along with the JS links mentioned. The JS links include jQuery, PopperJs & Bootstrap file included because these are required to execute the work, we look forward to do.
+-> for using bootstrap cdn, [getBootstrap.com] we put the css stylesheet link provided at this link along with the JS links mentioned. The JS links include jQuery, PopperJs & Bootstrap file included because these are required to execute the work, we look forward to do. [jQuery is also to be done]
 
 -> Default Html size is 16px so 1rem = 16px & multiply accordingly ie 2rem = 16px \* 2
 
@@ -29,3 +29,12 @@
 -> Most of the time go with md commands bec then in small screen it will be stacked & that's what we want.
 
 -> While mentioning the total no. cols if we preceed 12 then it automatically wraps.
+
+### JavaScript Widgets
+
+-> Carousel Slider:
+-> Collapse & Accordion:
+-> Tooltips:
+-> Popovers:
+-> Modals:
+-> ScrollSpy & Smooth Scrolling:
