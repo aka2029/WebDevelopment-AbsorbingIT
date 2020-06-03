@@ -6,6 +6,24 @@ a) Remember that dist is the final project, if something has to be shown or take
 2. create a package.json file since we are installing anything with npm [npm init -y], this file has name, version, all that stuff. Once we install node sass it should get listed in here(in package.json) as a dependency.
 3. to install node sass [npm install node-sass]
 4. now to use node-sass, we have to create "npm script". So, change this [ "test": "echo \"Error: no test specified\" && exit 1"] to ["sass": "node-sass -w scss/ -o dist/css/ --recursive"] .... where -w is a watch flag & we have to constantly watch a folder call scss, that we haven't created yet. Then we want to output to "-o dist" & dist is where our project will live.
+   or just copy this and change the name
+
+{
+"name": "selfhelpbook",
+"version": "1.0.0",
+"description": "",
+"main": "index.js",
+"scripts": {
+"sass": "node-sass -w scss/ -o dist/css/ --recursive"
+},
+"keywords": [],
+"author": "",
+"license": "ISC",
+"dependencies": {
+"node-sass": "^4.14.1"
+}
+}
+
 5. then create scss folder with main.scss file in it.
 6. then create dist folder
 7. now, to run sass [npm run sass]
