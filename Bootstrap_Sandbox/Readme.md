@@ -43,3 +43,7 @@ This is wierd in bootstrap because somethings have to be initialized (USING jQue
 -> Popovers: actually very similar to tooltips. This also has to be initialized by jQuery just like tooltip.
 -> Modals: Eg. the popup login form
 -> ScrollSpy & Smooth Scrolling: Eg. when we scroll and reach home, that will be highlighted, similarly for about, services, etc etc. And custom jQuery so that when we click on the navbar it takes us to that section and also provides little bit of animation ie the smooth scrolling.
+
+### Random Stuff
+
+-> when using d-flex the order can be changed by using order-1, order-2 etc
