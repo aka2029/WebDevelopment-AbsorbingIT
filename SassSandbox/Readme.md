@@ -27,6 +27,7 @@ a) Remember that dist is the final project, if something has to be shown or take
 5. then create scss folder with main.scss file in it.
 6. then create dist folder
 7. now, to run sass [npm run sass]
+8. after doing this last step css folder will automatically be created inside dist folder and will work seemlessly.
 
 b) if you dont want to go through this hassle then download Koala[It is a graphical interface] and it will do all this work that we did in terminal
 (prefer terminal)
