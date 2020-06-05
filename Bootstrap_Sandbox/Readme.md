@@ -47,3 +47,5 @@ This is wierd in bootstrap because somethings have to be initialized (USING jQue
 ### Random Stuff
 
 -> when using d-flex the order can be changed by using order-1, order-2 etc
+-> In the multiuse website when we had to add photo galary & each photo is gonna open in a light box. The way they're gonna achive that is using "lightbox for bootstrap" -> [Link] "https://ashleydw.github.io/lightbox/"
+-> For the testimonials slider at the bottom of the page, use the slick slider -> "https://kenwheeler.github.io/slick/"
