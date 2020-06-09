@@ -1,4 +1,4 @@
 1) Think of Node.js modules as JS libraries - a certain part of your overall codebase which you want to keep together, but
 you also want to keep seperated from the rest of your codebase to keep things cleanly seperated.
 
-2)
+2) This link is an Important Resource : "https://nodejs.org/dist/latest-v12.x/docs/api/"
