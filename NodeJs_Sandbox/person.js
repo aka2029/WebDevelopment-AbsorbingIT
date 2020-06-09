@@ -21,3 +21,5 @@ class Person {
 }
 
 module.exports = Person;
+
+// Module wrapper class - refer notes
