@@ -4,7 +4,7 @@
 
 /* lets first try to use it with Clear Task button.. so as to give an example:
 
-document.querySelector(".clear-tasks").addEventListener("click", function(e) {
+document.querySelector(".clear-tasks").addEventListener("click", function(e) { //e is the event object, console log it to see its' various properties
   console.log("Hello World"); //this initially flashes bec href = "" or even if if has a link, but if we put # in it then it prevents the browser to redirect
 
   e.preventDefault(); //this is something unique, checkout e(event parameter)

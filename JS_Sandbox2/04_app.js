@@ -9,15 +9,17 @@ val = listItem;
 val = list;
 
 // Get child nodes
-val = list.childNodes; //this also gets us text node, bec of this we move to children bec we just want child elements -> returns node list
+val = list.childNodes; //this also gets us text node[</li> is also a text node bec it gives line break], bec of this we move to children bec we just want child elements -> returns node list
 val = list.childNodes[0];
 val = list.childNodes[0].nodeName; //says text
-val = list.childNodes[0].nodeType;
+val = list.childNodes[0].nodeType; //returns some wierd no and representation of them is shown below
 
 /* 
+  Moreover, childNodes returns node list and children returns HTML Collection
+
   childNode gives all different types of nodes not just elements, children is just going to give us elements. Normally, we'll be using children more than chldNodes
 
-These nos. pertain to what kind of nodes these are:
+These nos. pertain to what kind of nodes these are ie nodeType:
 1 - Element
 2 - Attribute(deprecated)
 3 - Text node

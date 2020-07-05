@@ -4,7 +4,7 @@
 // --------------------------------------------------------------------------
 //document.getElementsByClassName
 
-const items = document.getElementsByClassName("collection-item");
+const items = document.getElementsByClassName("collection-item"); //this returns HTML Collection and each of them on clicking shows all the properties available
 console.log(items);
 console.log(items[0]); //so as to use them individually (& like an array)
 items[0].style.color = "red";

@@ -23,11 +23,11 @@ card.addEventListener("mouseover", runEvent);
 // Mosemove -> any movement inside that element
 card.addEventListener("mousemove", runEvent);
 
-// Event Handler
+// Event Handler - this provides the current coordinates where the mouse is
 function runEvent(e) {
-  console.log(`EVENT TYPE: ${e.type}`);
+  console.log(`EVENT TYPE: ${e.type}`); //type is the event type
 
-  heading.textContent = `MouseX: ${e.offsetX} MouseY: ${e.offsetY}`;
+  heading.textContent = `MouseX: ${e.offsetX} MouseY: ${e.offsetY}`; //gives the coordinates when we move with respect to x and y
 
   document.body.style.backgroundColor = `rgb(${e.offsetX}, ${e.offsetY}, 40)`;
 }

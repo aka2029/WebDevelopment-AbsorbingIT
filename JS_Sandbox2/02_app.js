@@ -2,7 +2,7 @@
 -> one things that jQuery is good for is quick simple plugins or scripts that you need to do a specific action but never for DOM manipulation
  */
 
-// DIFFERENT SELECTORS - COUPLE ELEMENT & SINGLE ELEMENT SELECTORS , previously we've looked at couple now let's see 2 single element selectors
+// DIFFERENT SELECTORS - "COUPLE ELEMENT & SINGLE ELEMENT SELECTORS" , previously we've looked at couple now let's see 2 single element selectors
 
 /* */
 // -------------------------------------------------------------------------
@@ -23,15 +23,15 @@ taskTitle.style.padding = "5px";
 // document.getElementById("task-title").style.display = "none"; -> we wanna do this while implementing events and for dynamic functionality
 
 // change contect
-taskTitle.textContent = "Task List";
-taskTitle.innerText = "My Tasks";
+taskTitle.textContent = "Task List"; //textContent returns the text content of all elements
+taskTitle.innerText = "My Tasks"; //innerText will not return the text of elements that are hidden with CSS (textContent will)
 taskTitle.innerHTML = "<span style = 'color:red'>Task List</span>";
 
 // -------------------------------------------------------------------------
-// document.querySelector() - much powerfull and works like jQuery
+// document.querySelector() - [single query selector] much powerfull bec we can select anything and works like jQuery
 console.log(document.querySelector("#task-title"));
 console.log(document.querySelector(".card-title"));
-console.log(document.querySelector("h5")); //if more than 1, then it will get 1st one
+console.log(document.querySelector("h5")); //if more than 1, then it will get 1st one...so, now to see how we can work with different elements by using this...so look at the querySelector with li below.
 
 document.querySelector("li").style.color = "red"; //remember, this is single query selector so, will just select the first one
 document.querySelector("ul li").style.color = "blue";
@@ -39,4 +39,4 @@ document.querySelector("ul li").style.color = "blue";
 document.querySelector("li:last-child").style.color = "red";
 document.querySelector("li:nth-child(3)").style.color = "yellow";
 document.querySelector("li:nth-child(4)").textContent = "Hello World";
-document.querySelector("li:nth-child(odd)").style.background = "#ccc"; //still only 1st odd got selected
+document.querySelector("li:nth-child(odd)").style.background = "#ccc"; //still only 1st odd got selected, so for this we have querySelectorAll for selection of more than 1

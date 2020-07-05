@@ -12,7 +12,7 @@ li.id = "new-item";
 // Add attribute
 li.setAttribute("title", "New Item");
 
-// Create text node and append ie we want to put something inside of something
+// **Create text node and append ie we want to put something inside of something and create text node will put text node inside the li tag
 li.appendChild(document.createTextNode("Hello World"));
 
 // Create new link element
